@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="800" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Rect height="800" width="480" x="0" y="0"  fillColor="0x333333"/>
+	<e:Label text="登录页" textColor="0xFFFFFF" horizontalCenter="0" top="0"/>
+	<e:UIAsset source="start_png"  horizontalCenter="0"/>
+    <e:UIAsset  source="rec3_png"  horizontalCenter="0" y="95"/>
+    
+    <e:UIAsset source="rec3_png" horizontalCenter="0" y="160"/>
+    	<e:UIAsset source="drop_png" horizontalCenter="100" y="170"/>
+	
+	<e:UIAsset id="m_start_btn" source="start_button_png" horizontalCenter="0" bottom="502"/>
+	<e:UIAsset id="watch_btn" source="watch_button_png" horizontalCenter="0" y="313"/>
+	<e:UIAsset id="setting_btn" source="setting_button_png" horizontalCenter="0" y="391"/>
+	
+	<e:UIAsset  source="playintroduction_png" horizontalCenter="0" y="485" textColor="0xFFFFFF" fontFamily="Andalus" textAlign="left" verticalAlign="justify"/>
+	<e:EditableText id="user_name" x="127" y="105" width="228" height="33" editable="true" textColor="0x000000" size="25" fontFamily="圆体" text="点此输入大名" maxChars="15"/>
+	<e:EditableText x="74" y="532" width="330" height="76" editable="false" textColor="0x00000000" text="通过移动手指控制你的圆的，大的吃掉小的，绿色圆的可以躲避追捕" size="18" fontFamily="圆体"/>
+	<e:EditableText x="128" y="170" width="193" height="32" editable="false" textColor="0" text="多人混战" fontFamily="圆体" size="25"/>
+	
+	
+</e:Skin>

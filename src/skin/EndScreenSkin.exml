@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="800" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Rect height="800" width="480" x="0" y="0"  fillColor="0x333333"/>
+	<e:Label text="结束界面" textColor="0xFFFFFF" horizontalCenter="0" top="0"/>
+	<e:Button id="m_replyBtn" label="重新游戏" horizontalCenter="0" bottom="200"/>
+</e:Skin>

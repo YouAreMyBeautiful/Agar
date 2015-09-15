@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="800" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Rect height="800" width="480" x="0" y="0"  fillColor="0x333333"/>
+	<e:Label text="游戏主界面" textColor="0xFFFFFF" horizontalCenter="0" top="0"/>
+	<e:UIAsset height="800" width="480" x="0" y="0" id="m_container"/>
+	<e:EditableText id="fenli" text="分离" width="80" height="43" textColor="0xD41D1D" bold="true" editable="false" touchEnabled="true" size="35" x="396" y="754" verticalAlign="middle"/>
+
+</e:Skin>
