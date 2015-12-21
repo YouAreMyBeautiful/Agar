@@ -1,5 +1,5 @@
 /**
-*   @author zen
+*   @author xiechengjian
 *   @date 2015.08.03
 *   @desc 游戏通用数据
 *   
